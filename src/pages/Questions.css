@@ -1,0 +1,149 @@
+.questions-page {
+    max-width: 800px;
+      margin: 0 auto;
+        padding: 40px 20px;
+          font-family: sans-serif;
+          }
+
+          .questions-header {
+            text-align: center;
+              margin-bottom: 30px;
+              }
+
+              .questions-header h1 {
+                font-size: 30px;
+                  color: #1a1a2e;
+                    margin-bottom: 8px;
+                    }
+
+                    .questions-header p {
+                      color: #888;
+                        font-size: 14px;
+                        }
+
+                        .filters {
+                          margin-bottom: 20px;
+                            display: flex;
+                              flex-direction: column;
+                                gap: 12px;
+                                }
+
+                                .search-input {
+                                  width: 100%;
+                                    padding: 12px 16px;
+                                      border: 1px solid #ddd;
+                                        border-radius: 10px;
+                                          font-size: 14px;
+                                            outline: none;
+                                              box-sizing: border-box;
+                                              }
+
+                                              .search-input:focus {
+                                                border-color: #e94560;
+                                                }
+
+                                                .filter-buttons {
+                                                  display: flex;
+                                                    flex-wrap: wrap;
+                                                      gap: 8px;
+                                                      }
+
+                                                      .filter-btn {
+                                                        padding: 7px 16px;
+                                                          border-radius: 20px;
+                                                            border: 1px solid #ddd;
+                                                              background: white;
+                                                                font-size: 13px;
+                                                                  cursor: pointer;
+                                                                    color: #555;
+                                                                    }
+
+                                                                    .filter-btn.active {
+                                                                      background-color: #e94560;
+                                                                        color: white;
+                                                                          border-color: #e94560;
+                                                                          }
+
+                                                                          .filter-btn.diff.active {
+                                                                            background-color: #1a1a2e;
+                                                                              border-color: #1a1a2e;
+                                                                              }
+
+                                                                              .results-count {
+                                                                                font-size: 13px;
+                                                                                  color: #888;
+                                                                                    margin-bottom: 16px;
+                                                                                    }
+
+                                                                                    .questions-list {
+                                                                                      display: flex;
+                                                                                        flex-direction: column;
+                                                                                          gap: 14px;
+                                                                                          }
+
+                                                                                          .question-card {
+                                                                                            background: white;
+                                                                                              border: 1px solid #eee;
+                                                                                                border-radius: 12px;
+                                                                                                  overflow: hidden;
+                                                                                                    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+                                                                                                    }
+
+                                                                                                    .question-top {
+                                                                                                      padding: 18px 20px;
+                                                                                                        cursor: pointer;
+                                                                                                        }
+
+                                                                                                        .question-meta {
+                                                                                                          display: flex;
+                                                                                                            gap: 8px;
+                                                                                                              margin-bottom: 10px;
+                                                                                                              }
+
+                                                                                                              .q-category {
+                                                                                                                background: #f0f0f0;
+                                                                                                                  color: #555;
+                                                                                                                    font-size: 11px;
+                                                                                                                      padding: 3px 10px;
+                                                                                                                        border-radius: 20px;
+                                                                                                                        }
+
+                                                                                                                        .q-difficulty {
+                                                                                                                          font-size: 11px;
+                                                                                                                            padding: 3px 10px;
+                                                                                                                              border-radius: 20px;
+                                                                                                                              }
+
+                                                                                                                              .q-difficulty.easy { background: #d4edda; color: #155724; }
+                                                                                                                              .q-difficulty.medium { background: #fff3cd; color: #856404; }
+                                                                                                                              .q-difficulty.hard { background: #f8d7da; color: #721c24; }
+
+                                                                                                                              .q-text {
+                                                                                                                                font-size: 15px;
+                                                                                                                                  color: #1a1a2e;
+                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                      line-height: 1.5;
+                                                                                                                                      }
+
+                                                                                                                                      .q-toggle {
+                                                                                                                                        font-size: 12px;
+                                                                                                                                          color: #e94560;
+                                                                                                                                            font-weight: bold;
+                                                                                                                                            }
+
+                                                                                                                                            .question-answer {
+                                                                                                                                              padding: 16px 20px;
+                                                                                                                                                background: #f9f9f9;
+                                                                                                                                                  border-top: 1px solid #eee;
+                                                                                                                                                    font-size: 14px;
+                                                                                                                                                      color: #444;
+                                                                                                                                                        line-height: 1.6;
+                                                                                                                                                        }
+
+                                                                                                                                                        .no-questions {
+                                                                                                                                                          text-align: center;
+                                                                                                                                                            padding: 40px;
+                                                                                                                                                              color: #888;
+                                                                                                                                                                font-size: 15px;
+                                                                                                                                                                }
+}

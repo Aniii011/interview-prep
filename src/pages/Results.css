@@ -1,0 +1,215 @@
+.results-page {
+    max-width: 750px;
+      margin: 0 auto;
+        padding: 40px 20px;
+          font-family: sans-serif;
+          }
+
+          .loading {
+            text-align: center;
+              padding: 60px;
+                color: #888;
+                  font-size: 16px;
+                  }
+
+                  /* Score Card */
+                  .score-card {
+                    background: white;
+                      border-radius: 16px;
+                        padding: 40px 30px;
+                          text-align: center;
+                            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+                              margin-bottom: 32px;
+                              }
+
+                              .score-circle {
+                                width: 130px;
+                                  height: 130px;
+                                    border-radius: 50%;
+                                      border: 6px solid;
+                                        display: flex;
+                                          flex-direction: column;
+                                            align-items: center;
+                                              justify-content: center;
+                                                margin: 0 auto 20px;
+                                                }
+
+                                                .score-percent {
+                                                  font-size: 36px;
+                                                    font-weight: bold;
+                                                      line-height: 1;
+                                                      }
+
+                                                      .score-label {
+                                                        font-size: 13px;
+                                                          color: #888;
+                                                            margin-top: 4px;
+                                                            }
+
+                                                            .score-card h2 {
+                                                              font-size: 22px;
+                                                                margin-bottom: 10px;
+                                                                }
+
+                                                                .score-summary {
+                                                                  color: #666;
+                                                                    font-size: 15px;
+                                                                      margin-bottom: 24px;
+                                                                        line-height: 1.6;
+                                                                        }
+
+                                                                        /* Stats Row */
+                                                                        .result-stats {
+                                                                          display: flex;
+                                                                            justify-content: center;
+                                                                              gap: 20px;
+                                                                                flex-wrap: wrap;
+                                                                                  margin-bottom: 28px;
+                                                                                    padding: 20px;
+                                                                                      background: #f9f9f9;
+                                                                                        border-radius: 12px;
+                                                                                        }
+
+                                                                                        .result-stat {
+                                                                                          text-align: center;
+                                                                                            min-width: 60px;
+                                                                                            }
+
+                                                                                            .result-stat h4 {
+                                                                                              font-size: 24px;
+                                                                                                color: #1a1a2e;
+                                                                                                  margin-bottom: 4px;
+                                                                                                  }
+
+                                                                                                  .result-stat p {
+                                                                                                    font-size: 12px;
+                                                                                                      color: #888;
+                                                                                                      }
+
+                                                                                                      /* Action Buttons */
+                                                                                                      .result-actions {
+                                                                                                        display: flex;
+                                                                                                          gap: 12px;
+                                                                                                            justify-content: center;
+                                                                                                              flex-wrap: wrap;
+                                                                                                              }
+
+                                                                                                              .btn-retry {
+                                                                                                                padding: 11px 22px;
+                                                                                                                  border-radius: 10px;
+                                                                                                                    text-decoration: none;
+                                                                                                                      font-size: 14px;
+                                                                                                                        font-weight: bold;
+                                                                                                                          background-color: #e94560;
+                                                                                                                            color: white;
+                                                                                                                            }
+
+                                                                                                                            .btn-dashboard {
+                                                                                                                              padding: 11px 22px;
+                                                                                                                                border-radius: 10px;
+                                                                                                                                  text-decoration: none;
+                                                                                                                                    font-size: 14px;
+                                                                                                                                      font-weight: bold;
+                                                                                                                                        background-color: #1a1a2e;
+                                                                                                                                          color: white;
+                                                                                                                                          }
+
+                                                                                                                                          .btn-review {
+                                                                                                                                            padding: 11px 22px;
+                                                                                                                                              border-radius: 10px;
+                                                                                                                                                text-decoration: none;
+                                                                                                                                                  font-size: 14px;
+                                                                                                                                                    font-weight: bold;
+                                                                                                                                                      border: 2px solid #1a1a2e;
+                                                                                                                                                        color: #1a1a2e;
+                                                                                                                                                        }
+
+                                                                                                                                                        /* Answer Review */
+                                                                                                                                                        .answer-review {
+                                                                                                                                                          margin-top: 10px;
+                                                                                                                                                          }
+
+                                                                                                                                                          .answer-review h2 {
+                                                                                                                                                            font-size: 22px;
+                                                                                                                                                              color: #1a1a2e;
+                                                                                                                                                                margin-bottom: 6px;
+                                                                                                                                                                }
+
+                                                                                                                                                                .review-subtitle {
+                                                                                                                                                                  color: #888;
+                                                                                                                                                                    font-size: 13px;
+                                                                                                                                                                      margin-bottom: 20px;
+                                                                                                                                                                      }
+
+                                                                                                                                                                      .review-card {
+                                                                                                                                                                        background: white;
+                                                                                                                                                                          border-radius: 12px;
+                                                                                                                                                                            padding: 20px;
+                                                                                                                                                                              margin-bottom: 14px;
+                                                                                                                                                                                border-left: 4px solid;
+                                                                                                                                                                                  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+                                                                                                                                                                                  }
+
+                                                                                                                                                                                  .review-card.correct {
+                                                                                                                                                                                    border-left-color: #2ecc71;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    .review-card.wrong {
+                                                                                                                                                                                      border-left-color: #e94560;
+                                                                                                                                                                                      }
+
+                                                                                                                                                                                      .review-top {
+                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                          justify-content: space-between;
+                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                              margin-bottom: 10px;
+                                                                                                                                                                                              }
+
+                                                                                                                                                                                              .review-num {
+                                                                                                                                                                                                font-size: 12px;
+                                                                                                                                                                                                  font-weight: bold;
+                                                                                                                                                                                                    background: #f0f0f0;
+                                                                                                                                                                                                      padding: 3px 10px;
+                                                                                                                                                                                                        border-radius: 20px;
+                                                                                                                                                                                                          color: #555;
+                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                          .review-badge {
+                                                                                                                                                                                                            font-size: 13px;
+                                                                                                                                                                                                              font-weight: bold;
+                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                              .review-question {
+                                                                                                                                                                                                                font-size: 15px;
+                                                                                                                                                                                                                  color: #1a1a2e;
+                                                                                                                                                                                                                    margin-bottom: 12px;
+                                                                                                                                                                                                                      line-height: 1.5;
+                                                                                                                                                                                                                        font-weight: 500;
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        .review-answers {
+                                                                                                                                                                                                                          display: flex;
+                                                                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                                                                              gap: 6px;
+                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                              .your-answer {
+                                                                                                                                                                                                                                font-size: 13px;
+                                                                                                                                                                                                                                  color: #555;
+                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                  .correct-answer {
+                                                                                                                                                                                                                                    font-size: 13px;
+                                                                                                                                                                                                                                      color: #155724;
+                                                                                                                                                                                                                                        background: #d4edda;
+                                                                                                                                                                                                                                          padding: 8px 12px;
+                                                                                                                                                                                                                                            border-radius: 6px;
+                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                            /* Responsive */
+                                                                                                                                                                                                                                            @media (max-width: 600px) {
+                                                                                                                                                                                                                                              .score-card { padding: 28px 16px; }
+                                                                                                                                                                                                                                                .result-actions { flex-direction: column; }
+                                                                                                                                                                                                                                                  .btn-retry, .btn-dashboard, .btn-review { text-align: center; }
+                                                                                                                                                                                                                                                  }
+}

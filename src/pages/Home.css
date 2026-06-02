@@ -1,0 +1,166 @@
+.home {
+    font-family: sans-serif;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+        color: white;
+          text-align: center;
+            padding: 80px 20px;
+            }
+
+            .hero h1 {
+              font-size: 42px;
+                margin-bottom: 16px;
+                }
+
+                .hero p {
+                  font-size: 18px;
+                    color: #ccc;
+                      margin-bottom: 30px;
+                        max-width: 600px;
+                          margin-left: auto;
+                            margin-right: auto;
+                            }
+
+                            .hero-buttons {
+                              display: flex;
+                                gap: 16px;
+                                  justify-content: center;
+                                    flex-wrap: wrap;
+                                    }
+
+                                    .btn-primary {
+                                      background-color: #e94560;
+                                        color: white;
+                                          padding: 12px 28px;
+                                            border-radius: 8px;
+                                              text-decoration: none;
+                                                font-weight: bold;
+                                                  font-size: 15px;
+                                                  }
+
+                                                  .btn-primary:hover {
+                                                    background-color: #c73652;
+                                                    }
+
+                                                    .btn-secondary {
+                                                      background-color: transparent;
+                                                        color: white;
+                                                          padding: 12px 28px;
+                                                            border-radius: 8px;
+                                                              text-decoration: none;
+                                                                font-weight: bold;
+                                                                  font-size: 15px;
+                                                                    border: 2px solid white;
+                                                                    }
+
+                                                                    .btn-secondary:hover {
+                                                                      background-color: white;
+                                                                        color: #1a1a2e;
+                                                                        }
+
+                                                                        /* Stats */
+                                                                        .stats {
+                                                                          display: flex;
+                                                                            justify-content: center;
+                                                                              gap: 30px;
+                                                                                padding: 50px 20px;
+                                                                                  background-color: #f9f9f9;
+                                                                                    flex-wrap: wrap;
+                                                                                    }
+
+                                                                                    .stat-card {
+                                                                                      text-align: center;
+                                                                                        padding: 20px 40px;
+                                                                                        }
+
+                                                                                        .stat-card h2 {
+                                                                                          font-size: 36px;
+                                                                                            color: #e94560;
+                                                                                              margin-bottom: 6px;
+                                                                                              }
+
+                                                                                              .stat-card p {
+                                                                                                color: #555;
+                                                                                                  font-size: 15px;
+                                                                                                  }
+
+                                                                                                  /* Features */
+                                                                                                  .features {
+                                                                                                    padding: 60px 20px;
+                                                                                                      text-align: center;
+                                                                                                      }
+
+                                                                                                      .features h2 {
+                                                                                                        font-size: 28px;
+                                                                                                          margin-bottom: 30px;
+                                                                                                            color: #1a1a2e;
+                                                                                                            }
+
+                                                                                                            .feature-cards {
+                                                                                                              display: grid;
+                                                                                                                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                                                                                                                  gap: 24px;
+                                                                                                                    max-width: 900px;
+                                                                                                                      margin: 0 auto;
+                                                                                                                      }
+
+                                                                                                                      .feature-card {
+                                                                                                                        background: white;
+                                                                                                                          border: 1px solid #eee;
+                                                                                                                            border-radius: 12px;
+                                                                                                                              padding: 30px 20px;
+                                                                                                                                box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+                                                                                                                                }
+
+                                                                                                                                .feature-card span {
+                                                                                                                                  font-size: 36px;
+                                                                                                                                  }
+
+                                                                                                                                  .feature-card h3 {
+                                                                                                                                    margin: 12px 0 8px;
+                                                                                                                                      color: #1a1a2e;
+                                                                                                                                      }
+
+                                                                                                                                      .feature-card p {
+                                                                                                                                        color: #666;
+                                                                                                                                          font-size: 14px;
+                                                                                                                                            line-height: 1.6;
+                                                                                                                                            }
+
+                                                                                                                                            /* CTA */
+                                                                                                                                            .cta {
+                                                                                                                                              background: linear-gradient(135deg, #e94560, #c73652);
+                                                                                                                                                color: white;
+                                                                                                                                                  text-align: center;
+                                                                                                                                                    padding: 60px 20px;
+                                                                                                                                                    }
+
+                                                                                                                                                    .cta h2 {
+                                                                                                                                                      font-size: 28px;
+                                                                                                                                                        margin-bottom: 12px;
+                                                                                                                                                        }
+
+                                                                                                                                                        .cta p {
+                                                                                                                                                          font-size: 16px;
+                                                                                                                                                            margin-bottom: 24px;
+                                                                                                                                                              opacity: 0.9;
+                                                                                                                                                              }
+
+                                                                                                                                                              .cta .btn-primary {
+                                                                                                                                                                background-color: white;
+                                                                                                                                                                  color: #e94560;
+                                                                                                                                                                  }
+
+                                                                                                                                                                  .cta .btn-primary:hover {
+                                                                                                                                                                    background-color: #f0f0f0;
+                                                                                                                                                                    }
+
+                                                                                                                                                                    /* Responsive */
+                                                                                                                                                                    @media (max-width: 600px) {
+                                                                                                                                                                      .hero h1 { font-size: 28px; }
+                                                                                                                                                                        .hero p { font-size: 15px; }
+                                                                                                                                                                        }
+}

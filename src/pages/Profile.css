@@ -1,0 +1,218 @@
+.profile-page {
+    max-width: 700px;
+      margin: 0 auto;
+        padding: 40px 20px;
+          font-family: sans-serif;
+          }
+
+          .profile-card {
+            background: white;
+              border-radius: 16px;
+                padding: 40px 30px;
+                  text-align: center;
+                    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+                      margin-bottom: 28px;
+                      }
+
+                      .profile-avatar {
+                        width: 80px;
+                          height: 80px;
+                            border-radius: 50%;
+                              background: linear-gradient(135deg, #e94560, #1a1a2e);
+                                color: white;
+                                  font-size: 36px;
+                                    font-weight: bold;
+                                      display: flex;
+                                        align-items: center;
+                                          justify-content: center;
+                                            margin: 0 auto 16px;
+                                            }
+
+                                            .profile-card h2 {
+                                              font-size: 24px;
+                                                color: #1a1a2e;
+                                                  margin-bottom: 4px;
+                                                  }
+
+                                                  .profile-email {
+                                                    color: #888;
+                                                      font-size: 14px;
+                                                        margin-bottom: 24px;
+                                                        }
+
+                                                        .profile-stats {
+                                                          display: flex;
+                                                            justify-content: center;
+                                                              gap: 30px;
+                                                                padding: 20px;
+                                                                  background: #f9f9f9;
+                                                                    border-radius: 12px;
+                                                                      margin-bottom: 24px;
+                                                                        flex-wrap: wrap;
+                                                                        }
+
+                                                                        .profile-stat h4 {
+                                                                          font-size: 26px;
+                                                                            color: #e94560;
+                                                                              margin-bottom: 4px;
+                                                                              }
+
+                                                                              .profile-stat p {
+                                                                                font-size: 12px;
+                                                                                  color: #888;
+                                                                                  }
+
+                                                                                  .save-success {
+                                                                                    background: #d4edda;
+                                                                                      color: #155724;
+                                                                                        padding: 10px;
+                                                                                          border-radius: 8px;
+                                                                                            font-size: 13px;
+                                                                                              margin-bottom: 16px;
+                                                                                              }
+
+                                                                                              .edit-btn {
+                                                                                                background-color: #1a1a2e;
+                                                                                                  color: white;
+                                                                                                    border: none;
+                                                                                                      padding: 12px 30px;
+                                                                                                        border-radius: 10px;
+                                                                                                          font-size: 14px;
+                                                                                                            font-weight: bold;
+                                                                                                              cursor: pointer;
+                                                                                                              }
+
+                                                                                                              .edit-btn:hover { background-color: #16213e; }
+
+                                                                                                              .edit-form {
+                                                                                                                text-align: left;
+                                                                                                                  margin-top: 10px;
+                                                                                                                  }
+
+                                                                                                                  .form-group {
+                                                                                                                    margin-bottom: 16px;
+                                                                                                                    }
+
+                                                                                                                    .form-group label {
+                                                                                                                      display: block;
+                                                                                                                        font-size: 13px;
+                                                                                                                          font-weight: 600;
+                                                                                                                            color: #333;
+                                                                                                                              margin-bottom: 6px;
+                                                                                                                              }
+
+                                                                                                                              .form-group input {
+                                                                                                                                width: 100%;
+                                                                                                                                  padding: 11px 14px;
+                                                                                                                                    border: 1px solid #ddd;
+                                                                                                                                      border-radius: 8px;
+                                                                                                                                        font-size: 14px;
+                                                                                                                                          outline: none;
+                                                                                                                                            box-sizing: border-box;
+                                                                                                                                            }
+
+                                                                                                                                            .form-group input:focus { border-color: #e94560; }
+
+                                                                                                                                            .edit-buttons {
+                                                                                                                                              display: flex;
+                                                                                                                                                gap: 12px;
+                                                                                                                                                }
+
+                                                                                                                                                .save-btn {
+                                                                                                                                                  flex: 1;
+                                                                                                                                                    padding: 12px;
+                                                                                                                                                      background: #e94560;
+                                                                                                                                                        color: white;
+                                                                                                                                                          border: none;
+                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                              font-weight: bold;
+                                                                                                                                                                cursor: pointer;
+                                                                                                                                                                  font-size: 14px;
+                                                                                                                                                                  }
+
+                                                                                                                                                                  .cancel-btn {
+                                                                                                                                                                    flex: 1;
+                                                                                                                                                                      padding: 12px;
+                                                                                                                                                                        background: #f0f0f0;
+                                                                                                                                                                          color: #333;
+                                                                                                                                                                            border: none;
+                                                                                                                                                                              border-radius: 8px;
+                                                                                                                                                                                font-weight: bold;
+                                                                                                                                                                                  cursor: pointer;
+                                                                                                                                                                                    font-size: 14px;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    .profile-history h2 {
+                                                                                                                                                                                      font-size: 20px;
+                                                                                                                                                                                        color: #1a1a2e;
+                                                                                                                                                                                          margin-bottom: 16px;
+                                                                                                                                                                                          }
+
+                                                                                                                                                                                          .no-history {
+                                                                                                                                                                                            color: #888;
+                                                                                                                                                                                              font-size: 14px;
+                                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                                  padding: 30px;
+                                                                                                                                                                                                    background: #f9f9f9;
+                                                                                                                                                                                                      border-radius: 12px;
+                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                      .no-history a { color: #e94560; }
+
+                                                                                                                                                                                                      .history-list {
+                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                          flex-direction: column;
+                                                                                                                                                                                                            gap: 10px;
+                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                            .history-item {
+                                                                                                                                                                                                              display: flex;
+                                                                                                                                                                                                                justify-content: space-between;
+                                                                                                                                                                                                                  align-items: center;
+                                                                                                                                                                                                                    background: white;
+                                                                                                                                                                                                                      padding: 14px 18px;
+                                                                                                                                                                                                                        border-radius: 10px;
+                                                                                                                                                                                                                          box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+                                                                                                                                                                                                                            flex-wrap: wrap;
+                                                                                                                                                                                                                              gap: 8px;
+                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                              .history-left {
+                                                                                                                                                                                                                                display: flex;
+                                                                                                                                                                                                                                  flex-direction: column;
+                                                                                                                                                                                                                                    gap: 4px;
+                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                    .history-category {
+                                                                                                                                                                                                                                      font-size: 14px;
+                                                                                                                                                                                                                                        font-weight: 600;
+                                                                                                                                                                                                                                          color: #1a1a2e;
+                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                          .history-date {
+                                                                                                                                                                                                                                            font-size: 12px;
+                                                                                                                                                                                                                                              color: #888;
+                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                              .history-right {
+                                                                                                                                                                                                                                                display: flex;
+                                                                                                                                                                                                                                                  align-items: center;
+                                                                                                                                                                                                                                                    gap: 10px;
+                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                    .history-score {
+                                                                                                                                                                                                                                                      font-size: 18px;
+                                                                                                                                                                                                                                                        font-weight: bold;
+                                                                                                                                                                                                                                                          color: #1a1a2e;
+                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                          .history-badge {
+                                                                                                                                                                                                                                                            font-size: 12px;
+                                                                                                                                                                                                                                                              padding: 4px 12px;
+                                                                                                                                                                                                                                                                border-radius: 20px;
+                                                                                                                                                                                                                                                                  font-weight: bold;
+                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                  .history-badge.pass { background: #d4edda; color: #155724; }
+                                                                                                                                                                                                                                                                  .history-badge.fail { background: #f8d7da; color: #721c24; }
+}

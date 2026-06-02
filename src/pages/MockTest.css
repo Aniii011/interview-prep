@@ -1,0 +1,237 @@
+.mock-test {
+    max-width: 700px;
+      margin: 0 auto;
+        padding: 30px 20px;
+          font-family: sans-serif;
+          }
+
+          .loading {
+            text-align: center;
+              padding: 60px;
+                font-size: 16px;
+                  color: #888;
+                  }
+
+                  /* Start Screen */
+                  .test-start {
+                    min-height: 80vh;
+                      display: flex;
+                        align-items: center;
+                          justify-content: center;
+                            padding: 20px;
+                            }
+
+                            .start-card {
+                              background: white;
+                                border-radius: 16px;
+                                  padding: 40px;
+                                    text-align: center;
+                                      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+                                        max-width: 420px;
+                                          width: 100%;
+                                          }
+
+                                          .start-icon {
+                                            font-size: 52px;
+                                            }
+
+                                            .start-card h2 {
+                                              font-size: 26px;
+                                                color: #1a1a2e;
+                                                  margin: 14px 0 6px;
+                                                  }
+
+                                                  .start-card p {
+                                                    color: #888;
+                                                      font-size: 14px;
+                                                        margin-bottom: 20px;
+                                                        }
+
+                                                        .test-rules {
+                                                          text-align: left;
+                                                            list-style: none;
+                                                              padding: 0;
+                                                                margin-bottom: 28px;
+                                                                  background: #f9f9f9;
+                                                                    border-radius: 10px;
+                                                                      padding: 16px 20px;
+                                                                      }
+
+                                                                      .test-rules li {
+                                                                        font-size: 14px;
+                                                                          color: #444;
+                                                                            padding: 5px 0;
+                                                                            }
+
+                                                                            .start-btn {
+                                                                              background-color: #e94560;
+                                                                                color: white;
+                                                                                  border: none;
+                                                                                    padding: 14px 40px;
+                                                                                      border-radius: 10px;
+                                                                                        font-size: 16px;
+                                                                                          font-weight: bold;
+                                                                                            cursor: pointer;
+                                                                                              width: 100%;
+                                                                                              }
+
+                                                                                              .start-btn:hover {
+                                                                                                background-color: #c73652;
+                                                                                                }
+
+                                                                                                /* Top Bar */
+                                                                                                .test-topbar {
+                                                                                                  display: flex;
+                                                                                                    justify-content: space-between;
+                                                                                                      align-items: center;
+                                                                                                        margin-bottom: 12px;
+                                                                                                          flex-wrap: wrap;
+                                                                                                            gap: 8px;
+                                                                                                            }
+
+                                                                                                            .test-progress-text {
+                                                                                                              font-size: 14px;
+                                                                                                                color: #555;
+                                                                                                                  font-weight: 600;
+                                                                                                                  }
+
+                                                                                                                  .test-category {
+                                                                                                                    font-size: 12px;
+                                                                                                                      background: #f0f0f0;
+                                                                                                                        padding: 4px 12px;
+                                                                                                                          border-radius: 20px;
+                                                                                                                            color: #555;
+                                                                                                                            }
+
+                                                                                                                            .test-timer {
+                                                                                                                              font-size: 16px;
+                                                                                                                                font-weight: bold;
+                                                                                                                                }
+
+                                                                                                                                /* Progress Bar */
+                                                                                                                                .test-progress-bar {
+                                                                                                                                  height: 6px;
+                                                                                                                                    background: #eee;
+                                                                                                                                      border-radius: 3px;
+                                                                                                                                        margin-bottom: 24px;
+                                                                                                                                          overflow: hidden;
+                                                                                                                                          }
+
+                                                                                                                                          .test-progress-fill {
+                                                                                                                                            height: 100%;
+                                                                                                                                              background: #e94560;
+                                                                                                                                                border-radius: 3px;
+                                                                                                                                                  transition: width 0.4s;
+                                                                                                                                                  }
+
+                                                                                                                                                  /* Test Card */
+                                                                                                                                                  .test-card {
+                                                                                                                                                    background: white;
+                                                                                                                                                      border-radius: 16px;
+                                                                                                                                                        padding: 30px;
+                                                                                                                                                          box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+                                                                                                                                                          }
+
+                                                                                                                                                          .test-question {
+                                                                                                                                                            font-size: 18px;
+                                                                                                                                                              color: #1a1a2e;
+                                                                                                                                                                margin-bottom: 24px;
+                                                                                                                                                                  line-height: 1.6;
+                                                                                                                                                                    font-weight: 600;
+                                                                                                                                                                    }
+
+                                                                                                                                                                    .test-options {
+                                                                                                                                                                      display: flex;
+                                                                                                                                                                        flex-direction: column;
+                                                                                                                                                                          gap: 12px;
+                                                                                                                                                                            margin-bottom: 20px;
+                                                                                                                                                                            }
+
+                                                                                                                                                                            .option-btn {
+                                                                                                                                                                              display: flex;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                  gap: 12px;
+                                                                                                                                                                                    padding: 14px 18px;
+                                                                                                                                                                                      border-radius: 10px;
+                                                                                                                                                                                        border: 2px solid #eee;
+                                                                                                                                                                                          background: white;
+                                                                                                                                                                                            font-size: 14px;
+                                                                                                                                                                                              color: #333;
+                                                                                                                                                                                                cursor: pointer;
+                                                                                                                                                                                                  text-align: left;
+                                                                                                                                                                                                    transition: border 0.2s, background 0.2s;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .option-btn:hover {
+                                                                                                                                                                                                      border-color: #e94560;
+                                                                                                                                                                                                        background: #fff5f7;
+                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                        .option-btn.correct {
+                                                                                                                                                                                                          border-color: #2ecc71;
+                                                                                                                                                                                                            background: #d4edda;
+                                                                                                                                                                                                              color: #155724;
+                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                              .option-btn.wrong {
+                                                                                                                                                                                                                border-color: #e94560;
+                                                                                                                                                                                                                  background: #f8d7da;
+                                                                                                                                                                                                                    color: #721c24;
+                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                    .option-letter {
+                                                                                                                                                                                                                      width: 28px;
+                                                                                                                                                                                                                        height: 28px;
+                                                                                                                                                                                                                          border-radius: 50%;
+                                                                                                                                                                                                                            background: #f0f0f0;
+                                                                                                                                                                                                                              display: flex;
+                                                                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                                                                  justify-content: center;
+                                                                                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                                                                                      font-size: 13px;
+                                                                                                                                                                                                                                        flex-shrink: 0;
+                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                        .answer-feedback {
+                                                                                                                                                                                                                                          padding: 12px 16px;
+                                                                                                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                                                                                                              font-size: 14px;
+                                                                                                                                                                                                                                                background: #f9f9f9;
+                                                                                                                                                                                                                                                  margin-bottom: 16px;
+                                                                                                                                                                                                                                                    color: #333;
+                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                    .next-btn {
+                                                                                                                                                                                                                                                      width: 100%;
+                                                                                                                                                                                                                                                        padding: 14px;
+                                                                                                                                                                                                                                                          background-color: #1a1a2e;
+                                                                                                                                                                                                                                                            color: white;
+                                                                                                                                                                                                                                                              border: none;
+                                                                                                                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                                                                                                                  font-size: 15px;
+                                                                                                                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                                                                                                                      cursor: pointer;
+                                                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                                                      .next-btn:hover {
+                                                                                                                                                                                                                                                                        background-color: #16213e;
+                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                        .next-btn:disabled {
+                                                                                                                                                                                                                                                                          opacity: 0.4;
+                                                                                                                                                                                                                                                                            cursor: not-allowed;
+                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                            .score-tracker {
+                                                                                                                                                                                                                                                                              text-align: center;
+                                                                                                                                                                                                                                                                                margin-top: 16px;
+                                                                                                                                                                                                                                                                                  font-size: 13px;
+                                                                                                                                                                                                                                                                                    color: #888;
+                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                    /* Responsive */
+                                                                                                                                                                                                                                                                                    @media (max-width: 600px) {
+                                                                                                                                                                                                                                                                                      .test-card { padding: 20px; }
+                                                                                                                                                                                                                                                                                        .test-question { font-size: 16px; }
+                                                                                                                                                                                                                                                                                        }
+}
