@@ -1,11 +1,15 @@
-import "./About.css";
-
 const teamMembers = [
-  { name: "Your Name Here", role: "Frontend Developer", matric: "Your Matric No." },
-    { name: "Member 2", role: "UI Designer", matric: "Matric No." },
-      { name: "Member 3", role: "React Developer", matric: "Matric No." },
-        { name: "Member 4", role: "Documentation", matric: "Matric No." },
-        ];
+  { name: "Tiamiyu Kabirat Anike", role: "Lead Developer", matric: "LCU/UG/24/33609" },
+  { name: "Odebunmi Oyinkansola Iyanuoluwa", role: "Frontend Developer", matric: "LCU/UG/24/30427" },
+  { name: "Edebiri-Billy Omosivie Gabriel", role: "UI Designer", matric: "LCU/UG/24/31222" },
+  { name: "Ajao Emmanuel Olaoluwa", role: "React Developer", matric: "LCU/UG/24/34555" },
+  { name: "Adelabu Samuel Fikayo", role: "React Developer", matric: "LCU/UG/24/30950" },
+  { name: "Imatobhebhe Gospel", role: "UI Designer", matric: "LCU/UG/24/32755" },
+  { name: "Ibekwe Kelechi", role: "Frontend Developer", matric: "LCU/UG/24/32375" },
+  { name: "Olutimehin Ayodeji Onaopemipo", role: "React Developer", matric: "LCU/UG/24/29534" },
+  { name: "Igbo Victor Ifeanyi", role: "Documentation", matric: "LCU/UG/24/31162" },
+  { name: "Oluade Ismail", role: "Documentation", matric: "LCU/UG/24" },
+];
 
         function About() {
           return (
