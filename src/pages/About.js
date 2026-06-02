@@ -8,7 +8,7 @@ const teamMembers = [
   { name: "Ibekwe Kelechi", role: "Frontend Developer", matric: "LCU/UG/24/32375" },
   { name: "Olutimehin Ayodeji Onaopemipo", role: "React Developer", matric: "LCU/UG/24/29534" },
   { name: "Igbo Victor Ifeanyi", role: "Documentation", matric: "LCU/UG/24/31162" },
-  { name: "Oluade Ismail", role: "Documentation", matric: "LCU/UG/24" },
+  { name: "Oluade Ismail", role: "Documentation", matric: "LCU/UG/24/32694" },
 ];
 
         function About() {
